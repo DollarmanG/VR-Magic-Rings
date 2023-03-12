@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Ring : MonoBehaviour
+public class FireRing : MonoBehaviour
 {
     //this script is just triggering the player to to be able to collect the diamond. it also shows how much diamonds(points) should be added when taking one.
 
@@ -19,7 +19,7 @@ public class Ring : MonoBehaviour
     {
         ItemCollector playerCollector = other.GetComponent<ItemCollector>();
 
-        if (playerCollector != null)
+        if (playerCollector.gameObject.CompareTag("Fireball"))
         {
             playerCollector.DiamondCollected();
             gameObject.SetActive(false);

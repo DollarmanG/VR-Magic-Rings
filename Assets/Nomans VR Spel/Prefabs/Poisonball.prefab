@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 2421184734636065046}
   - component: {fileID: 2827163853029471917}
   m_Layer: 6
-  m_Name: Purple Poison ball
+  m_Name: Poisonball
   m_TagString: Fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

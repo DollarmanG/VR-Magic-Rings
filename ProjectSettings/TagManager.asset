@@ -7,6 +7,8 @@ TagManager:
   - Fireball
   - Ring
   - LevelObjects
+  - Iceball
+  - Poisonball
   layers:
   - Default
   - TransparentFX
