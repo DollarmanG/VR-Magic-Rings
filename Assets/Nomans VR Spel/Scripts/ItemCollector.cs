@@ -10,6 +10,6 @@ public class ItemCollector : MonoBehaviour
 
     public void DiamondCollected()
     {
-        NumberofDiamonds++;
+        NumberofDiamonds--;
     }
 }
