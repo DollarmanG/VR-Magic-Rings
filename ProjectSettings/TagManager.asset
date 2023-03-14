@@ -9,6 +9,7 @@ TagManager:
   - LevelObjects
   - Iceball
   - Poisonball
+  - Stuffs
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Restricted
   - Player
   - Grabbable
-  - 
+  - Stuffs
   - 
   - 
   - 
