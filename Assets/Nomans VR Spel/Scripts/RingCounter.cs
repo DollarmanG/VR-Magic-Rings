@@ -23,7 +23,7 @@ public class RingCounter : MonoBehaviour
 
     void Update()
     {
-        if (ringNumber == "8" || ringCounter == 8)
+        if (ringNumber == "0" || ringCounter == 0)
         {
             SceneManager.LoadScene(sceneName);
         }
