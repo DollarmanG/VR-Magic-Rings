@@ -5905,6 +5905,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 5600991310371084789, guid: ea916a89d045d0144afc5e13afd10fab,
+        type: 3}
+    - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
+        type: 3}
       propertyPath: sceneName
       value: Victory Scene
       objectReference: {fileID: 0}
