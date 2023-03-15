@@ -1472,6 +1472,7 @@ GameObject:
   - component: {fileID: 600518556}
   - component: {fileID: 600518555}
   - component: {fileID: 600518554}
+  - component: {fileID: 600518557}
   m_Layer: 7
   m_Name: Orange Ring (2)
   m_TagString: Ring
@@ -1557,6 +1558,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600518552}
   m_Mesh: {fileID: 4300000, guid: 139d0416d0914364c82279c96d0dad03, type: 2}
+--- !u!114 &600518557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600518552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b7ee45b02c77b479a48ab72c49c34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredMaterial: {fileID: 2100000, guid: 55fae0b6f3bab9a40a78d3b7158c7cda, type: 2}
+  delayTime: 3
 --- !u!1001 &625549141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6158,7 +6173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ba8ccda5cab17418e84b29fbf923eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Game Scene 1
+  sceneName: Game Scene Intermitent
   delayTime: 5
   triggeredMaterial: {fileID: 2100000, guid: 55fae0b6f3bab9a40a78d3b7158c7cda, type: 2}
 --- !u!65 &1807023974
@@ -7322,7 +7337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Tutorial Scene
   delayTime: 5
-  triggeredMaterial: {fileID: 0}
+  triggeredMaterial: {fileID: 2100000, guid: 55fae0b6f3bab9a40a78d3b7158c7cda, type: 2}
 --- !u!4 &4864248408568217721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3436510781993234326, guid: 8ae1377c47f20074a9979916f4ea8305,

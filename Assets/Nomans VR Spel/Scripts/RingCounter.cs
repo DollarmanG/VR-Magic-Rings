@@ -13,10 +13,15 @@ public class RingCounter : MonoBehaviour
     [SerializeField] int ringCounter;
     [SerializeField] string ringNumber;
     [SerializeField] string sceneName;
+    public TextMeshProUGUI text;
+    public float delayTime = 2f;
     private TMP_Text diamondText;
+
+    private bool hasReachedZero = false;
 
     void Start()
     {
+        text.enabled = false;
         diamondText = GetComponent<TMP_Text>();
         diamondText.text = ringNumber;
     }
@@ -25,7 +30,10 @@ public class RingCounter : MonoBehaviour
     {
         if (ringNumber == "0" || ringCounter == 0)
         {
-            SceneManager.LoadScene(sceneName);
+            text.text = "Level Completed!";
+            text.enabled = true;
+            hasReachedZero = true;
+            Invoke("LoadNextScene", delayTime);
         }
     }
 
@@ -33,6 +41,12 @@ public class RingCounter : MonoBehaviour
     {
         ringCounter -= amountToIncrease;
         diamondText.text = ringCounter.ToString();
+    }
+
+    void LoadNextScene()
+    {
+        // Load the next scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 
 }
