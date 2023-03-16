@@ -143,7 +143,7 @@ PrefabInstance:
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
@@ -827,7 +827,7 @@ PrefabInstance:
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
@@ -2663,7 +2663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &598589477
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3517,7 +3517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &837402526
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3896,7 +3896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &892547173
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4024,7 +4024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &922906890
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4241,7 +4241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &953041105
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4499,7 +4499,7 @@ PrefabInstance:
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
@@ -4969,7 +4969,7 @@ PrefabInstance:
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228247638250852894, guid: c271955d6c2e81c40a1fa25b580b3e57,
         type: 3}
@@ -5101,7 +5101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1229572265
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5911,18 +5911,23 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
+      propertyPath: delayTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
+        type: 3}
       propertyPath: sceneName
-      value: Victory Scene
+      value: Level 1
       objectReference: {fileID: 0}
     - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
       propertyPath: ringNumber
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 694732026814855728, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
       propertyPath: ringCounter
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 694732026814855732, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
@@ -6037,7 +6042,7 @@ PrefabInstance:
     - target: {fileID: 694732026814855734, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
       propertyPath: m_text
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 694732026814855734, guid: 9707521dee9792c458983e8553f670f9,
         type: 3}
@@ -7453,7 +7458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1543562293
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7747,7 +7752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1643790673
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9689,7 +9694,7 @@ PrefabInstance:
     - target: {fileID: 3259713967213946750, guid: 1638bc045561d09429e3bdc29364f789,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3259713967213946750, guid: 1638bc045561d09429e3bdc29364f789,
         type: 3}
@@ -9936,6 +9941,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poisonball Respawnpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 3950783239978733556, guid: 031263fef5676f64c811e2b6ded7f810,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3950783239978733559, guid: 031263fef5676f64c811e2b6ded7f810,
         type: 3}
       propertyPath: m_RootOrder
@@ -10008,7 +10018,7 @@ PrefabInstance:
     - target: {fileID: 5260129626560340708, guid: dec0548e8668fb742a9fb05e3f1e4a1f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5260129626560340709, guid: dec0548e8668fb742a9fb05e3f1e4a1f,
         type: 3}
@@ -10090,6 +10100,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Iceball Respawnpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436510781993234325, guid: 8ae1377c47f20074a9979916f4ea8305,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3436510781993234326, guid: 8ae1377c47f20074a9979916f4ea8305,
         type: 3}
@@ -10218,7 +10233,7 @@ PrefabInstance:
     - target: {fileID: 7350305072075573013, guid: 602c60a13ca9acf48b3dabda578e9334,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7350305072075573013, guid: 602c60a13ca9acf48b3dabda578e9334,
         type: 3}

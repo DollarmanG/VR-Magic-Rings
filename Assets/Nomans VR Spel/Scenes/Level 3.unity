@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 2049207620}
-  totalTime: 120
+  totalTime: 150
 --- !u!4 &437589275
 Transform:
   m_ObjectHideFlags: 0
@@ -8291,7 +8291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time: 2:00'
+  m_text: 'Time: 2:30'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9523,7 +9523,7 @@ PrefabInstance:
     - target: {fileID: 5600991310371084786, guid: ea916a89d045d0144afc5e13afd10fab,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 260
       objectReference: {fileID: 0}
     - target: {fileID: 5600991310371084786, guid: ea916a89d045d0144afc5e13afd10fab,
         type: 3}
@@ -9594,6 +9594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Completed Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600991310371084789, guid: ea916a89d045d0144afc5e13afd10fab,
+        type: 3}
+      propertyPath: m_text
+      value: Congratulations! You have won the game!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea916a89d045d0144afc5e13afd10fab, type: 3}

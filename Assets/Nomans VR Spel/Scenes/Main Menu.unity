@@ -6173,7 +6173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ba8ccda5cab17418e84b29fbf923eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Game Scene Intermitent
+  sceneName: Game Scene Intermitent to 1
   delayTime: 5
   triggeredMaterial: {fileID: 2100000, guid: 55fae0b6f3bab9a40a78d3b7158c7cda, type: 2}
 --- !u!65 &1807023974
