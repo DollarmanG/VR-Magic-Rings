@@ -27,14 +27,26 @@ EditorBuildSettings:
     path: Assets/Nomans VR Spel/Scenes/Main Menu.unity
     guid: aa50bbf3d42ef82469c50b871e0ade03
   - enabled: 1
-    path: Assets/Nomans VR Spel/Scenes/Game Scene Intermitent to 3.unity
-    guid: 89b1806ce7943f2488fee4073375e918
+    path: Assets/Nomans VR Spel/Scenes/Level 1.unity
+    guid: d36b1fd1e872f13489ed775f3ca4add8
+  - enabled: 1
+    path: Assets/Nomans VR Spel/Scenes/Level 2.unity
+    guid: 5850edc238596b24f95e68703e1596d7
   - enabled: 1
     path: Assets/Nomans VR Spel/Scenes/Level 3.unity
     guid: 8c010627f59be614b8765797efddf9f0
   - enabled: 1
     path: Assets/Nomans VR Spel/Scenes/Tutorial Scene.unity
     guid: 5680df676f29b0f4ca448e388f356c86
+  - enabled: 1
+    path: Assets/Nomans VR Spel/Scenes/Game Scene Intermitent to 1.unity
+    guid: 4e8d388d1c9ee8a43b97e0834d366fd4
+  - enabled: 1
+    path: Assets/Nomans VR Spel/Scenes/Game Scene Intermitent to 2.unity
+    guid: ffceb9345e4912c43a62cd0a9ebef61e
+  - enabled: 1
+    path: Assets/Nomans VR Spel/Scenes/Game Scene Intermitent to 3.unity
+    guid: 89b1806ce7943f2488fee4073375e918
   - enabled: 1
     path: Assets/Nomans VR Spel/Scenes/Victory Scene.unity
     guid: 84dbfa36f30d4cd44a356c09ca183681

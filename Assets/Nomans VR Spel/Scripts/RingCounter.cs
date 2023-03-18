@@ -30,7 +30,7 @@ public class RingCounter : MonoBehaviour
     {
         if (ringNumber == "0" || ringCounter == 0)
         {
-            text.text = "Level Completed!";
+            //text.text = "Level Completed!";
             text.enabled = true;
             hasReachedZero = true;
             Invoke("LoadNextScene", delayTime);

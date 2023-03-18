@@ -8370,6 +8370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7868263468637913893, guid: 31e14b7f6062ed044a1afceb672aeee0,
         type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868263468637913893, guid: 31e14b7f6062ed044a1afceb672aeee0,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -3.59
       objectReference: {fileID: 0}
@@ -8381,7 +8386,14 @@ PrefabInstance:
     - target: {fileID: 7868263468637913894, guid: 31e14b7f6062ed044a1afceb672aeee0,
         type: 3}
       propertyPath: m_text
-      value: Hit To Start
+      value: 'Level 3!
+
+        Hit To Start'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868263468637913894, guid: 31e14b7f6062ed044a1afceb672aeee0,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7868263468803919289, guid: 31e14b7f6062ed044a1afceb672aeee0,
         type: 3}
@@ -9874,7 +9886,7 @@ MonoBehaviour:
   countdownTime: 3
   countdownText: {fileID: 418923037}
   triggerBox: {fileID: 427135332}
-  sceneName: Game Scene 1
+  sceneName: Level 3
   delayTime: 1
   triggeredMaterial: {fileID: 2100000, guid: 55fae0b6f3bab9a40a78d3b7158c7cda, type: 2}
 --- !u!114 &3228247636241743250
