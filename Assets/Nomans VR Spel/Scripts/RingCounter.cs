@@ -13,6 +13,9 @@ public class RingCounter : MonoBehaviour
     [SerializeField] int ringCounter;
     [SerializeField] string ringNumber;
     [SerializeField] string sceneName;
+
+    [SerializeField] private AudioSource audioSource;
+
     public TextMeshProUGUI text;
     public float delayTime = 2f;
     private TMP_Text diamondText;
@@ -30,9 +33,9 @@ public class RingCounter : MonoBehaviour
     {
         if (ringNumber == "0" || ringCounter == 0)
         {
-            //text.text = "Level Completed!";
             text.enabled = true;
             hasReachedZero = true;
+            audioSource.PlayOneShot(audioSource.clip);
             Invoke("LoadNextScene", delayTime);
         }
     }
