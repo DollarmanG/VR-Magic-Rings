@@ -1607,6 +1607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1001 &625549141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6513,6 +6514,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1001 &1905949423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7641,6 +7643,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!4 &4864248408568217721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3436510781993234326, guid: 8ae1377c47f20074a9979916f4ea8305,
