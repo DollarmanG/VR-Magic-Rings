@@ -9936,6 +9936,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!4 &3228247636326127444 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5260129626560340709, guid: dec0548e8668fb742a9fb05e3f1e4a1f,

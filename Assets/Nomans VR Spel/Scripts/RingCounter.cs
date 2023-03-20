@@ -21,6 +21,7 @@ public class RingCounter : MonoBehaviour
     private TMP_Text diamondText;
 
     private bool hasReachedZero = false;
+    private bool hasPlayedAudio = false;
 
     void Start()
     {
@@ -33,9 +34,9 @@ public class RingCounter : MonoBehaviour
     {
         if (ringNumber == "0" || ringCounter == 0)
         {
-            text.enabled = true;
             hasReachedZero = true;
-            audioSource.PlayOneShot(audioSource.clip);
+            text.enabled = true;
+            VictoryAudio();
             Invoke("LoadNextScene", delayTime);
         }
     }
@@ -50,6 +51,16 @@ public class RingCounter : MonoBehaviour
     {
         // Load the next scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
+
+    void VictoryAudio()
+    {
+        if (!hasPlayedAudio)
+        {
+            hasPlayedAudio = true;
+            audioSource.PlayOneShot(audioSource.clip);
+            //hasPlayedAudio = false;
+        }
     }
 
 }

@@ -3722,6 +3722,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1001 &869958518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5025,6 +5026,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1001 &1170518792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6461,6 +6463,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1 &1395775869
 GameObject:
   m_ObjectHideFlags: 0
@@ -8874,6 +8877,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  tagName: Fireball
 --- !u!1001 &2117343058
 PrefabInstance:
   m_ObjectHideFlags: 0
