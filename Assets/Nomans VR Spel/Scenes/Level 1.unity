@@ -8792,7 +8792,7 @@ PrefabInstance:
     - target: {fileID: 291076022332627758, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
@@ -8842,17 +8842,17 @@ PrefabInstance:
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.140901
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.140901
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.140901
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
@@ -8867,7 +8867,7 @@ PrefabInstance:
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.13
+      value: -1.1539
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
@@ -8892,12 +8892,12 @@ PrefabInstance:
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1
+      value: 0.681
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3
+      value: 2.423
       objectReference: {fileID: 0}
     - target: {fileID: 291076022332627765, guid: f8d2664d6f165b448b9af4165137495e,
         type: 3}
@@ -9566,12 +9566,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1136397971}
     - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionId
+      value: 1f6f8e5e-a5b6-40d3-9dda-7a2646162919
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionName
+      value: UI Menu/Menu Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9584,6 +9596,14 @@ PrefabInstance:
     - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MenuPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432194217, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2361049061176418923, guid: 54eed8b55ced2384b99e36e7c833e997,
         type: 3}
@@ -9658,6 +9678,51 @@ PrefabInstance:
     - target: {fileID: 3643808127213540819, guid: 54eed8b55ced2384b99e36e7c833e997,
         type: 3}
       propertyPath: m_AnimateModel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643808127213540819, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_EnableInputTracking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643808127213540819, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: 55ffdbff-786c-4019-9357-b75ba40c7b1f
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643808127213540819, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295286207776732017, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: f38a4adb-eb39-49b7-b0de-bfe9e9bcf227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295286207776732017, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603714731521742239, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656338528899395884, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: 7609de6c-3bc0-41ae-ba8f-44e1c65537fd
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656338528899395884, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666936109755631296, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4858612397844661191, guid: 54eed8b55ced2384b99e36e7c833e997,
@@ -9784,6 +9849,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnimateModel
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623018480275354822, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_EnableInputTracking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623018480275354822, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: 20b8bbd4-a866-40df-b395-b4c1a87972d8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623018480275354822, guid: 54eed8b55ced2384b99e36e7c833e997,
+        type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54eed8b55ced2384b99e36e7c833e997, type: 3}

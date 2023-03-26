@@ -48,14 +48,14 @@ public class GameMenu : MonoBehaviour
     {
         isPaused = true;
         DisplayUI();
-        //Time.timeScale = 0f;
+        Time.timeScale = 0f;
     }
 
     private void ResumeGame()
     {
         isPaused = false;
         DisplayUI();
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
     }
 
     public void DisplayUI()
