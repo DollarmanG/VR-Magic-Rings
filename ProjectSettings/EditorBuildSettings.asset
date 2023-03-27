@@ -47,10 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Nomans VR Spel/Scenes/Game Scene Intermitent to 3.unity
     guid: 89b1806ce7943f2488fee4073375e918
-  - enabled: 1
+  - enabled: 0
     path: Assets/Nomans VR Spel/Scenes/Victory Scene.unity
     guid: 84dbfa36f30d4cd44a356c09ca183681
-  - enabled: 1
+  - enabled: 0
     path: Assets/Nomans VR Spel/Scenes/Game Over.unity
     guid: d765544dc80b66d48bdb62550d425381
   m_configObjects:
