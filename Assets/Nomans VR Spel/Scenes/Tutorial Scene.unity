@@ -4457,6 +4457,7 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!20 &1159742312 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3207562595102311929, guid: 54eed8b55ced2384b99e36e7c833e997,
@@ -6937,6 +6938,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4093927622561353901, guid: f1183376ff651264c873594c079b2438,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093927622561353901, guid: f1183376ff651264c873594c079b2438,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8981181772202989819, guid: f1183376ff651264c873594c079b2438,
         type: 3}
       propertyPath: m_text
@@ -7079,6 +7090,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1820361762 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4938181339235322179, guid: f1183376ff651264c873594c079b2438,
+    type: 3}
+  m_PrefabInstance: {fileID: 1820361760}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1827197456
@@ -8121,6 +8144,7 @@ MonoBehaviour:
   ringCounter: 2
   ringNumber: 2
   sceneName: Main Menu
+  image: {fileID: 1820361762}
   audioSource: {fileID: 862463126}
   text: {fileID: 1820361761}
   delayTime: 5

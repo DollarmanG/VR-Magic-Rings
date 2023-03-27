@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class RingCounter : MonoBehaviour
@@ -13,6 +14,7 @@ public class RingCounter : MonoBehaviour
     [SerializeField] int ringCounter;
     [SerializeField] string ringNumber;
     [SerializeField] string sceneName;
+    [SerializeField] Image image;
 
     [SerializeField] private AudioSource audioSource;
 
@@ -26,6 +28,7 @@ public class RingCounter : MonoBehaviour
     void Start()
     {
         text.enabled = false;
+        image.enabled = false;
         diamondText = GetComponent<TMP_Text>();
         diamondText.text = ringNumber;
     }
@@ -36,6 +39,7 @@ public class RingCounter : MonoBehaviour
         {
             hasReachedZero = true;
             text.enabled = true;
+            image.enabled = true;
             VictoryAudio();
             Invoke("LoadNextScene", delayTime);
         }
